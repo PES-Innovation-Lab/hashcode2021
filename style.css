@@ -246,6 +246,8 @@ body {
   .inner-container-1 {
     padding: 2vh 1vw 0 1vw;
     align-items: center;
+    min-height: unset;
+    height: 100%;
   }
 
   .logo-container {
