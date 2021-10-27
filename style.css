@@ -4,15 +4,16 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   box-sizing: border-box;
   font-family: "Red Hat Display", sans-serif;
   color: #fefefe;
-  background-color: black;
 }
 
 .container {
   width: 100%;
+  background-color: black;
 }
 
 .inner-container {
@@ -39,6 +40,7 @@ body {
   color: #fefefe;
   text-align: center;
   font-family: "Red Hat Display", sans-serif;
+  margin: 2vh 0;
 }
 
 .pil-line {
@@ -129,7 +131,7 @@ body {
   transition: all ease-in-out 0.5s;
 }
 
-.sponsors{
+.sponsors {
   font-weight: 400;
   font-size: 1.5rem;
 }
@@ -145,7 +147,7 @@ body {
 
 .slider {
   height: 120px;
-  margin: auto;
+  margin: 5vh auto;
   overflow: hidden;
   position: relative;
   /* width: 100%; */
