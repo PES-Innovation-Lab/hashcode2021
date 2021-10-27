@@ -62,6 +62,13 @@ body {
   margin: 4vh 0;
 }
 
+.header-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .pil-line {
   font-size: 1rem;
   font-weight: 300;
@@ -167,10 +174,9 @@ body {
 .slider {
   height: 120px;
   overflow: hidden;
-  position: fixed;
+  position: relative;
   border: 1px solid black;
   background-color: black;
-  bottom: 4vh;
 }
 
 .slider::before,
@@ -213,4 +219,7 @@ body {
   align-items: center;
   background-color: black;
   margin: 0 40px;
+}
+
+@media only screen and (max-width: 1024px) {
 }
