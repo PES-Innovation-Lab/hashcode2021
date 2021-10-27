@@ -1,6 +1,12 @@
-var hour = 24;
-var minute = 0;
-var second = 0;
+var countDownDate = new Date("Oct 31, 2021 10:00:00").getTime();
+var Today = new Date().getTime();
+
+var distance = countDownDate - Today;
+
+var hour = Math.floor(distance / (1000 * 60 * 60));
+var minute = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+var second = Math.floor((distance % (1000 * 60)) / 1000);
+
 
 var hour1 = document.getElementById("hour1");
 var hour2 = document.getElementById("hour2");
@@ -31,5 +37,4 @@ var x = setInterval(function () {
   min2.innerHTML = minute % 10;
   sec1.innerHTML = (second - (second % 10)) / 10;
   sec2.innerHTML = second % 10;
-
 }, 1000);
