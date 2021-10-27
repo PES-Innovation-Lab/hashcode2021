@@ -217,7 +217,7 @@ body {
   margin: 0 40px;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 765px) {
   .container {
     max-width: 100vw;
     overflow-x: hidden;
@@ -241,6 +241,10 @@ body {
 
   .pes-logo {
     height: 40px;
+  }
+
+  .header-section{
+    margin-top: 3vh;
   }
 
   .pil-line {
@@ -290,7 +294,7 @@ body {
       transform: translateX(0);
     }
     100% {
-      transform: translateX(calc(-164px * 7));
+      transform: translateX(calc(-134px * 7));
     }
   }
 
@@ -307,12 +311,12 @@ body {
   }
 
   .slide-track {
-    width: calc(164px * 14);
+    width: calc(134px * 14);
   }
 
   .slide {
     height: 120px;
-    width: 150px;
+    width: 120px;
     margin: 0 7px;
   }
 
