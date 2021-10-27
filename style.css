@@ -17,8 +17,8 @@ body {
 }
 
 .inner-container {
-  padding: 3vh 2vw 0 2vw;
-  height: 97vh;
+  padding: 4vh 2vw 0 2vw;
+  height: 96vh;
   align-items: center;
 }
 
@@ -147,7 +147,7 @@ body {
 
 .slider {
   height: 120px;
-  margin: 5vh auto;
+  margin: 10vh auto 0 auto;
   overflow: hidden;
   position: relative;
   /* width: 100%; */
