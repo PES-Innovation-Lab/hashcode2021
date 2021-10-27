@@ -166,12 +166,14 @@ body {
 
 .slider {
   height: 120px;
-  margin: 10vh auto 0 auto;
+  /* margin: 10vh auto 0 auto; */
   overflow: hidden;
   position: relative;
   /* width: 100%; */
   border: 1px solid black;
   background-color: black;
+  /* position: absolute; */
+  bottom: 0;
 }
 
 .slider::before,
