@@ -238,7 +238,7 @@ body {
   text-align: center;
 }
 
-.timeine-wrapper {
+.timeline-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -457,4 +457,26 @@ body {
   .line2 {
     border-left: 1px solid #bdbdbd;
   }
+}
+
+#slideshow {
+  background-color: #111;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slideshow-item {
+  width: 1000px;
+}
+
+#slideshow-image {
+  border-radius: 1%;
+  width: 100%;
+}
+
+#slideshow-container {
+  display: none;
 }
